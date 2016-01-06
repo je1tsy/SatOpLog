@@ -1,0 +1,23 @@
+2016/1/6--(Wednesday)--10:21:0, tcSubmitCheck_Session
+2016/1/6--(Wednesday)--10:21:3, tcSubmitCheck_TimeCode
+2016/1/6--(Wednesday)--10:21:5, tcSubmitCheck_TLE
+2016/1/6--(Wednesday)--10:21:18, tcSubmitCheck_NumOfClient
+2016/1/6--(Wednesday)--10:21:19, tcSubmitStart_RIG_100VAC
+2016/1/6--(Wednesday)--10:21:20, tcSubmitCheck_AudioIO
+2016/1/6--(Wednesday)--10:21:22, tcSubmitInit_RIG_FREQCTL
+2016/1/6--(Wednesday)--10:21:24, tcSubmitInit_ROT_DirCTL
+2016/1/6--(Wednesday)--10:21:26, tcSubmitInit_ROT_AzmCTL
+2016/1/6--(Wednesday)--10:21:28, tcSubmitCheck_RIG_PTTCTL
+2016/1/6--(Wednesday)--10:21:29, tcSubmitStart_RIGCTL
+2016/1/6--(Wednesday)--10:21:31, tcSubmitStart_ROTCTL
+2016/1/6(Wednesday) 16:32:19, tcSubmitCheck_Session
+2016/1/6(Wednesday) 16:32:21, tcSubmitCheck_TimeCode
+2016/1/6(Wednesday) 16:32:22, tcSubmitCheck_TLE
+2016/1/6(Wednesday) 16:32:23, tcSubmitCheck_NumOfClient
+2016/1/6(Wednesday) 16:32:24, tcSubmitStart_RIG_100VAC
+2016/1/6(Wednesday) 16:32:24, tcSubmitCheck_AudioIO
+2016/1/6(Wednesday) 16:32:25, tcSubmitInit_RIG_FREQCTL
+2016/1/6(Wednesday) 16:32:26, tcSubmitStart_RIGCTL
+2016/1/6(Wednesday) 16:32:27, tcSubmitStart_ROTCTL
+2016/1/6(Wednesday) 16:34:54, commandtcsubmith3s
+2016/1/6(Wednesday) 16:34:55, commandtcsubmitp3e

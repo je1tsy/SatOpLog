@@ -1,0 +1,10 @@
+@charset "UTF-8";
+h2 {
+    color:#333333;
+}
+body {
+    background-color:#999999;
+}
+p.checklist {
+    border:solid;
+}

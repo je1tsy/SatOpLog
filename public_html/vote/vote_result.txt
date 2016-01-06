@@ -1,0 +1,13 @@
+2016/1/6(Wednesday) 16:38:6, tcSubmitCheck_Session
+2016/1/6(Wednesday) 16:38:32, tcSubmitCheck_Session
+2016/1/6(Wednesday) 16:38:34, tcSubmitCheck_TimeCode
+2016/1/6(Wednesday) 16:38:35, tcSubmitCheck_NumOfClient
+2016/1/6(Wednesday) 16:38:36, tcSubmitStart_RIG_100VAC
+2016/1/6(Wednesday) 16:38:36, tcSubmitCheck_AudioIO
+2016/1/6(Wednesday) 16:38:37, tcSubmitInit_ROT_AzmCTL
+2016/1/6(Wednesday) 16:38:38, tcSubmitCheck_RIG_PTTCTL
+2016/1/6(Wednesday) 16:38:38, tcSubmitStart_RIGCTL
+2016/1/6(Wednesday) 16:38:38, tcSubmitStart_ROTCTL
+2016/1/6(Wednesday) 16:38:40, commandtcsubmith3s
+2016/1/6(Wednesday) 16:38:57, commandtcsubmitr2s
+2016/1/6(Wednesday) 16:38:58, commandtcsubmitp3e
