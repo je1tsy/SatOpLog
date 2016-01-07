@@ -1,0 +1,4 @@
+2016/1/8(Friday) 2:52:19, tcSubmitCheck_Session
+2016/1/8(Friday) 2:52:22, commandtcsubmitr2s
+2016/1/8(Friday) 2:55:4, commandtcsubmitr2s
+2016/1/8(Friday) 2:55:13, tcSubmitCheck_Session

@@ -5,6 +5,7 @@ cgi = CGI.new
 
 print cgi.header("text/html; charset = utf-8")
 
+#print header with javascript function and body
 print <<EOF
 <head>
 <h2>
@@ -12,7 +13,7 @@ print <<EOF
 </h2>
 <p>University of Tsukuba / Maintainer: JE6HBC</p>
 <meta http-equiv="Content-Style-Type" content="text/css" />
-<link rel="stylesheet" type="text/css" href="../vote_css/satlog.css">
+<link rel="stylesheet" type="text/css" href="../logging_css/satlog.css">
 <script language="Javascript">
 <!--
 function inserttc( textid, ischecked ){
@@ -79,7 +80,7 @@ print <<EOF
 EOF
 
 #Read contents from question.txt and show checklist
-io = open("question.txt", "r:UTF-8")
+io = open("action_list.txt", "r:UTF-8")
 title = io.gets
   print <<EOF
     <p class="Checklist">
@@ -120,5 +121,6 @@ print <<EOFT
 </p>
 </form>
 </p>
+<textarea name="txrxLog" id="txrxLog" rows="20" cols="100">****Direwolf TX/RX log****</textarea>
 </body>
 EOFT

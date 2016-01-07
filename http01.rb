@@ -5,7 +5,8 @@ require 'webrick'
 include WEBrick
 
 CGI_PATH = '/usr/local/bin/ruby'
-DOC_PATH = File.join(Dir::pwd, "public_html/vote/")
+DOC_PATH1 = File.join(Dir::pwd, "public_html/vote/")
+DOC_PATH2 = File.join(Dir::pwd, "public_html/logging/")
 
 logger = WEBrick::BasicLog.new(WEBrick::BasicLog::DEBUG)
 
@@ -20,7 +21,11 @@ server = HTTPServer.new(
 #server.mount('./*', WEBrick::HTTPServlet::CGIHandler, './*')
 
 server.mount_proc('/vote') do |req, res|
-  WEBrick::HTTPServlet::CGIHandler.new(server, DOC_PATH + req.path_info).service(req, res)
+  WEBrick::HTTPServlet::CGIHandler.new(server, DOC_PATH1 + req.path_info).service(req, res)
+end
+
+server.mount_proc('/logging') do |req, res|
+  WEBrick::HTTPServlet::CGIHandler.new(server, DOC_PATH2 + req.path_info).service(req, res)
 end
 
 trap("INT"){s.shutdown}

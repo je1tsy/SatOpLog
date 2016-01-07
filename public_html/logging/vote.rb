@@ -7,7 +7,7 @@ ary = cgi.params["selects"]
 
 ary = ary.join("\n")
 
-data = open("vote_result.txt", "a:UTF-8")
+data = open("log_data.txt", "a:UTF-8")
 data.write(ary + "\n")
 data.close
 
@@ -18,7 +18,7 @@ Result<br>
 #{ary}
 <br>
 Logging... completed
-<a href="./enquete_form.rb">new logging</a>
+<a href="./main.rb">new logging</a>
 <a href="./view_result.rb">logs</a>
 </html>                                                                  
 EOF

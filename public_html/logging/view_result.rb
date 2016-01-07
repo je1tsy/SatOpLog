@@ -7,7 +7,7 @@ ary = Array.new
 
 count = Hash.new(0)
 
-data = open("vote_result.txt", "r:UTF-8")
+data = open("log_data.txt", "r:UTF-8")
 
 data.flock(File::LOCK_EX)
 while line = data.gets
@@ -20,7 +20,7 @@ data.close
 print cgi.header("text/html; charset = utf-8")
 print <<EOF
   <html>
-  Total Result<br><br>
+  Logs<br>
 EOF
 
 count.each{|key,value|
@@ -31,6 +31,6 @@ end
 
 print <<EOF
 <br>
-<a href="./enquete_form.rb">new logging</a>
+<a href="./main.rb">new logging</a>
 </html>                                                                  
 EOF
